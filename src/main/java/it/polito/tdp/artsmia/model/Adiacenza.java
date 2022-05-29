@@ -36,6 +36,11 @@ public class Adiacenza {       //Mi serve solo per ritornare il risultato della 
 	public void setPeso(int peso) {
 		this.peso = peso;
 	}
+
+	@Override
+	public String toString() {
+		return "Adiacenza [a1=" + a1 + ", a2=" + a2 + ", peso=" + peso + "]";
+	}
 	
 	
 
