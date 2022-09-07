@@ -80,6 +80,8 @@ public Model() {
 	public ArtObject getObject(int objectId) {
 		return idMap.get(objectId);
 	}
+	
+	//PUNTO D
 
 	public int getComponenteConnessa(ArtObject vertice) {   //Visitiamo grafo e recuperiamo vertici visitati e li mettiamo nel set
 		

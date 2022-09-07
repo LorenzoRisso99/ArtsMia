@@ -71,7 +71,7 @@ public class FXMLController {
     		txtResult.appendText("Devi inserire un codice numerico");
     	}
     	
-    	//esiste nel database???
+    	//Se esiste nel database 
         
     	ArtObject vertice = this.model.getObject(objectId);
     	
@@ -79,6 +79,8 @@ public class FXMLController {
     		txtResult.appendText("Oggetto inesistente!");
     		return;
     	}
+    	
+    	//PUNTO D
     	
     	int size = this.model.getComponenteConnessa(vertice);
     	txtResult.appendText("DIMENSIONE COMPONENTE CONNESSA: " + size);
